@@ -1,0 +1,14 @@
+),
+    textTheme: BaseTextStyle.getTextTheme(color: BaseColors.neutral[0]),
+    colorScheme: ColorScheme.dark(
+        primary: BaseColors.primary[400]!,
+        secondary: BaseColors.secondary[400]!,
+        surface: BaseColors.neutral[900]!,
+        error: BaseColors.danger,
+        onPrimary: BaseColors.white,
+        onSecondary: BaseColors.white,
+        onSurface: BaseColors.neutral[950]!, // text primary
+        onError: BaseColors.white,
+        outline: BaseColors.neutral[700]),
+  );
+}
