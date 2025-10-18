@@ -1,0 +1,16 @@
+,
+    color: Colors.black,
+  );
+
+  static const TextStyle bodyStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.normal,
+    color: Colors.black87,
+  );
+
+  static const TextStyle buttonStyle = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w600,
+    color: Colors.white,
+  );
+}
